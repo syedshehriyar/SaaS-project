@@ -1,0 +1,225 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Work Sans", sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav {
+	width: 90%;
+	margin: 0 auto;
+	height: 10vh;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 12%;
+}
+
+.logo img {
+	max-width: 80%;
+}
+
+.details a {
+	font-size: 20px;
+	margin-right: 50px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 5px 5px;
+	position: relative;
+}
+
+.details a::after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	background: #000000;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.details a:hover::after {
+	width: 100%;
+	left: 0;
+}
+
+.signup a {
+	font-size: 20px;
+	margin-right: 40px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 5px 5px;
+	position: relative;
+}
+
+.login::after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	background: #000000;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.login:hover::after {
+	width: 100%;
+	left: 0;
+}
+
+#join {
+	background-color: #06a666;
+	color: #ffffff;
+	padding: 12px 60px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 0px;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+#join:hover {
+	background-color: #088b57;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.h-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 0px 24px 0px;
+}
+
+.h-section a {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#start {
+	background-color: #06a666;
+	color: #ffffff;
+	font-weight: 500;
+	padding: 12px 50px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 0px;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+#start:hover {
+	background-color: #088b57;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.h-section a::after {
+	content: url("./assets/mouse-icon.png");
+	padding-left: 16px;
+}
+
+.header {
+	width: 60%;
+	line-height: 72px;
+	text-align: center;
+	font-family: "Volkhov", serif;
+	font-size: 48px;
+	padding: 0px 32px 0px 32px;
+}
+
+.desc {
+	width: 48%;
+	text-align: center;
+	font-size: 20px;
+	line-height: 32px;
+	padding: 24px 0px 40px 0px;
+}
+
+.hero-1 {
+	max-width: 45%;
+	margin-top: 80px;
+}
+
+#ft-head {
+	margin-left: 80px;
+	font-family: "Volkhov", serif;
+}
+.container {
+	padding-top: 24px;
+	padding-left: 120px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.ft-section a {
+	font-size: 20px;
+	font-weight: 400;
+}
+.ft-2 {
+	margin: 48px 0px 0px 160px;
+}
+
+#prod-btn {
+	background-color: #06a666;
+	color: #ffffff;
+	font-weight: 500;
+	padding: 12px 50px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 36px 170px;
+	float: right;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+#prod-btn:hover {
+	background-color: #088b57;
+	transition: all 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.ft-section a::after {
+	content: url("./assets/Arrow-right.png");
+	padding-left: 16px;
+}
+.why-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 80px;
+}
+.why-text {
+	margin-bottom: 310px;
+}
+#why {
+	font-family: "Volkhov", serif;
+}
+#why-desc {
+	padding-top: 8px;
+	line-height: 1.5em;
+}
+
+.com-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 120px;
+}
+#com-text {
+	margin-bottom: 310px;
+	margin-left: 80px;
+}
